@@ -3,4 +3,4 @@ These documents are intended to give students enough knowledge to start looking 
 their own answers!
 
 ## Contents
-- [Python: Data Structures Cheatsheet](https://github.com/atrnh/learning-resources/blob/master/cheatsheet.md)
+- [Python: Data Structures Cheatsheet](https://github.com/atrnh/learning-resources/blob/master/python-data-structures.md)
