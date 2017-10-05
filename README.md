@@ -1,6 +1,6 @@
-# About Python data structures
+# Learning resources for beginning programmers 
 These documents are intended to give students enough knowledge to start looking for
-their own answers in the Python docs.
+their own answers!
 
-Sometimes documentation can be intimidating if you're new to programming -- so simply
-being exposed to a concept can help you understand official documentation!
+## Contents
+- [Python: Data Structures Cheatsheet](https://github.com/atrnh/learning-resources/blob/master/cheatsheet.md)
