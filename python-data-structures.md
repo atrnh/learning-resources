@@ -79,6 +79,12 @@ end:
 [('e4', 'e5'), ('f4', 'exf4')]
 ```
 
+### Reference
+- [Python 2.7: More on
+   Lists](https://docs.python.org/2/tutorial/datastructures.html#more-on-lists)
+- [Python 3.6: More on
+   Lists](https://docs.python.org/3.6/tutorial/datastructures.html#more-on-lists)
+
 
 ## Tuples
 **Type:** immutable sequence  
@@ -106,6 +112,10 @@ of information:
 >>> card = ('Queen', 'hearts')  # rank and suit of a card
 ```
 
+### Reference
+- [Python 2.7: Tuples and Sequences](https://docs.python.org/2.7/tutorial/datastructures.html#tuples-and-sequences)
+- [Python 3.6: Tuples and Sequences](https://docs.python.org/3.6/tutorial/datastructures.html#tuples-and-sequences)
+
 
 ## Set
 **Type:** set type  
@@ -129,3 +139,23 @@ True
 >>> 'Kentucky' in states_visited
 False
 ```
+
+### Common usage
+I want to see if something exists:
+```python
+>>> available_rooms = set(['Meeting Room 1', 'Meeting Room 2'])
+>>> 'Meeting Room 1' in available_rooms
+True
+```
+
+I want to ignore duplicates:
+```python
+>>> fun_word = 'expelliarmus'
+>>> unique_letters = set(fun_word)
+>>> unique_letters
+set(['a', 'e', 'i', 'm', 'l', 'p', 's', 'r', 'u', 'x'])
+```
+
+### Reference
+- [Python 2.7: Sets](https://docs.python.org/2.7/tutorial/datastructures.html#sets)
+- [Python 3.6: Sets](https://docs.python.org/3.6/tutorial/datastructures.html#sets)
